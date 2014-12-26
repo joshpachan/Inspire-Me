@@ -1,0 +1,111 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
+    overflow-y: auto;
+    overflow-x: none;
+}
+
+body {
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 2em;
+    color: white;
+    line-height: 2.1em;
+    text-align: center;
+}
+
+.canvas {
+
+    width: 100%;
+    height: 100%;
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0)),
+    url('../img/beach-horizon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    /*padding-left: 150px;*/
+
+    width: 100%;
+    height: 2.2em;
+
+    background: rgba(0,0,0,0.7);
+}
+
+.nav-title {
+    margin: 0px;
+    padding-left: 15%;
+
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    text-align: left;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-options {
+    padding-right: 15%;
+    position: relative;
+    float: right;
+    right: 50px;
+    top: -55px;
+
+    list-style: none;
+
+    line-height: 1em;
+    text-align: left;
+    vertical-align: top;
+    font-size: 0.5em;
+}
+
+.nav-options li {
+    display: inline;
+    padding: 0 15px;
+
+    text-align: right;
+}
+
+.nav-options li:hover {
+    text-decoration: underline;
+}
+
+.q-holder {
+    display: table;
+
+    width: 100%;
+    height: 650px;
+}
+
+#q-text {
+    display: table-cell;
+    padding: 50px;
+    vertical-align: middle;
+
+    font-family: 'Open San Condensed', sans-serif;
+}
+
+.quote-button {
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 500px;
+    /*padding: 15px;*/
+
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.75));
+
+    font-size: .75em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.quote-button:hover {
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.75));
+}
+
+.quote-button:active {
+    background: #999;
+}
