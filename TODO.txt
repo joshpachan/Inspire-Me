@@ -1,0 +1,11 @@
+TODO
+
+[+] Switch to other quote api?
+[+] Switch TheySaidSo API Call from JS to Python
+[+] Upload to Heroku
+[+] Add FB Share and Paypal Donate
+
+
+WORKLOG
+12/28/14
+[+] Add Footer
