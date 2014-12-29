@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Inspire.me</title>
+    <!-- Description of site goes here -->
     <link rel='shortcut icon' href='{{ url_for('static', filename='img/favicon.ico') }}'>
     <!-- Webfonts -->
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
@@ -10,9 +11,6 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- CSS -->
     <link rel='stylesheet' href='{{ url_for('static', filename='css/main.min.css') }}'>
-    <!-- JQuery -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src='{{ url_for('static', filename='js/main.min.js') }}'></script>
 </head>
 <body>
     <div class='canvas'>
@@ -24,9 +22,9 @@
             </ul>
         </div>
         <div class='q-holder'>
-            <h1 id='q-text'>Are you ready?</h1>
+            <h1 id='q-text'>{{quote}}</h1>
         </div>
-        <div id='q-button' class='quote-button'>drop that inspiration on me</div>
+        <div id='q-button' class='quote-button'><a class='quote-button-text' href='/hit-me'>drop that inspiration on me</a></div>
         <div class='footer'>&copy; Josh Chan 2015</div>
     </div>
 </body>
